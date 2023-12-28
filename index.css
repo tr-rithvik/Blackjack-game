@@ -1,0 +1,47 @@
+body {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-image: url("image01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+#heading {
+    color: goldenrod;
+    font-size: 3em;
+}
+
+#para1 {
+    font-style: italic;
+    font-size: 2em;
+}
+
+#para2, #para3 {
+    font-size: 2em;
+}
+
+.button {
+    background-color: gold;
+    color: black; /* Set text color to white for better contrast */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .button:hover {
+    background-color: darkgoldenrod; /* Change color on hover if desired */
+  }
+
+  
